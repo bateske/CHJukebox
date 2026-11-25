@@ -1,0 +1,39 @@
+{
+  "id": "chjukebox",
+  "title": "JUKEBOX",
+  "author": "bateske",
+  "genre": "Application",
+  "license": "MIT",
+  "licenseFiles": [
+    "../LICENSE",
+    "src/atm/LICENSE-ATMlib"
+  ],
+  "url": "https://github.com/bateske/CHJukebox",
+  "sourceUrl": "https://github.com/bateske/CHJukebox",
+  "buttons": [
+    {
+      "control": "UP / DOWN",
+      "action": "Pick a song"
+    },
+    {
+      "control": "A",
+      "action": "Play, or pause in the player"
+    },
+    {
+      "control": "B",
+      "action": "Stop (list), back to the list (player)"
+    },
+    {
+      "control": "LEFT / RIGHT",
+      "action": "The song before / after"
+    },
+    {
+      "control": "SELECT",
+      "action": "The view: deck, scope, tracker"
+    },
+    {
+      "control": "START",
+      "action": "SYNTH / BEEP engine"
+    }
+  ]
+}

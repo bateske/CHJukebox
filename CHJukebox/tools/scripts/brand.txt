@@ -1,0 +1,36 @@
+# The screens the banner and the social card are made from (tools/brand.py
+# at the repository's root reads out/brand/): each song caught in a busy
+# section, not its intro, each view after its banner has gone (the views
+# go DECK, SCOPE, TRACKER).
+wait 20
+tap A
+wait 4
+# Clockwork Invention, bar 5: the circle-of-fifths episode.
+tap A
+wait 520
+snap deck_invention
+tap SELECT
+tap SELECT
+wait 60
+snap tracker_invention
+tap SELECT
+# Velvet Strut's hook (bar 11, 22 s in).
+tap RIGHT
+tap RIGHT
+wait 1330
+snap deck_funk
+# Circuit Breaker's drop (bar 5, 5.6 s in).
+tap RIGHT
+wait 480
+snap deck_jungle
+tap SELECT
+wait 60
+snap scope_jungle
+tap SELECT
+wait 60
+snap tracker_jungle
+tap SELECT
+# Rain on Glass, the tune (bar 3).
+tap RIGHT
+wait 520
+snap deck_nocturne

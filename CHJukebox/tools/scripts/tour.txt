@@ -1,0 +1,43 @@
+# Every screen once: the intro, the list, each view of each song.
+wait 20
+snap intro_standby
+wait 50
+snap intro_title
+tap A
+wait 10
+snap list
+state
+tap A
+wait 150
+snap deck_invention
+state
+tap SELECT
+wait 60
+snap scope_invention
+tap SELECT
+wait 60
+snap tracker_invention
+tap SELECT
+tap RIGHT
+wait 200
+snap deck_jig
+tap RIGHT
+wait 260
+snap deck_funk
+tap RIGHT
+wait 330
+snap deck_jungle
+tap SELECT
+wait 60
+snap scope_jungle
+tap SELECT
+wait 60
+snap tracker_jungle
+tap SELECT
+tap RIGHT
+wait 400
+snap deck_nocturne
+tap B
+wait 30
+snap list_playing
+state

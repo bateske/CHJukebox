@@ -1,0 +1,47 @@
+# The README's one picture (docs/gameplay.gif): the intro, then clips of
+# the list, the piano roll running ahead of a song, the tracker, the
+# drum & bass on the deck and the scope. Each clip is its own recording,
+# named in the order it is shown; `chgame gif` runs this script and joins
+# them.
+rec start 3
+wait 110
+rec stop 01_intro
+tap A
+wait 4
+rec start 3
+tap DOWN
+wait 8
+tap DOWN
+wait 8
+tap UP
+wait 8
+tap UP
+wait 10
+rec stop 02_list
+# The invention on the deck: the subject, then the answer under it.
+tap A
+wait 90
+rec start 3
+wait 150
+rec stop 03_invention
+# The same song as a tracker shows it.
+tap SELECT
+wait 30
+rec start 3
+wait 90
+rec stop 04_tracker
+# On to the funk and the drum & bass, back on the deck.
+tap SELECT
+tap SELECT
+tap RIGHT
+tap RIGHT
+wait 300
+rec start 3
+tap RIGHT
+wait 330
+rec stop 05_jungle
+# The drop on the scope.
+tap SELECT
+rec start 3
+wait 120
+rec stop 06_scope

@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+*.gif binary
+*.bin binary
+*.img binary
+*.wav binary
+*.chgame binary
+*.cmd text eol=crlf

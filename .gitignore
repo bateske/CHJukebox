@@ -1,0 +1,9 @@
+# build output (arduino-cli, the CHGame tools, the song tools)
+out/
+build/
+tools/chsim/build/
+__pycache__/
+*.pyc
+
+# local Claude Code settings and worktrees
+.claude/
