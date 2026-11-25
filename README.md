@@ -137,12 +137,13 @@ pictures, Zig's C++ compiler for the song tools, and CHGame's simulator.
 
 ## Getting started
 
-**The cart.** Download `CHJukebox.chgame` from the
+**The cart.** Download `CHJukebox-<version>.chgame` from the
 [Releases](https://github.com/bateske/CHJukebox/releases/latest) page. It
 holds a binary for each board (Rev0 and Rev1), and CHGame's SD menu and
 tools pick the right one. Put it on the card with CHGame's tools
-(`chgame cart deploy CHJukebox.chgame --card E:\`) and choose JUKEBOX from
-the menu.
+(`chgame cart deploy CHJukebox-1.0.chgame --card E:\`) and choose JUKEBOX
+from the menu. The release also has a WAV preview of each song: the
+synth's own samples, rendered on a PC.
 
 **From source, in the Arduino IDE:**
 

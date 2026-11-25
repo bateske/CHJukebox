@@ -87,8 +87,9 @@ the tick, the section, the engine and the drive.
 3. `chgame export` writes `build/CHJukebox.chgame`: the Rev0 and Rev1
    binaries, the licences and the metadata from `chgame.json` (its picture
    for the visual menu is drawn from the title over the GIF's first frame).
-4. Tag `v<version>` and attach the cart to a GitHub release; the WAV
-   previews from `make_songs.py --wav` are welcome beside it.
+4. Tag `v<version>` and attach the cart to a GitHub release as
+   `CHJukebox-<version>.chgame`, with the WAV previews from
+   `make_songs.py --wav` beside it.
 
 ## What is where
 
